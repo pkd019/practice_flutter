@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/pages/home.dart';
+
+import 'pages/login_page.dart';
 
 void main() {
   runApp(MaterialApp(
     title: "awesome app",
-    home: HomePage(),
+    home: LoginPage(),
     theme: ThemeData(primarySwatch: Colors.purple),
   ));
 }
